@@ -77,12 +77,12 @@ Haskell
 To Compile:
 -----------
 
-<samp>
+<code>
 $ ghc -o fibo fibo.hs
-
-$ ls -l fibo
--rwxrwxr-x 1 shashank shashank 1104363 Feb  4 20:44 fibo
-</samp>
+</br>
+$ ls -l fibo </br>
+-rwxrwxr-x 1 shashank shashank 1104363 Feb  4 20:44 fibo</br>
+</code>
 
 Dependencies:
 -------------

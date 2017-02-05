@@ -76,10 +76,13 @@ Haskell
 
 To Compile:
 -----------
+
+<samp>
 $ ghc -o fibo fibo.hs
 
 $ ls -l fibo
 -rwxrwxr-x 1 shashank shashank 1104363 Feb  4 20:44 fibo
+</samp>
 
 Dependencies:
 -------------

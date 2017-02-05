@@ -5,7 +5,7 @@ Comparing various langs for fun. Should not be considered as true benchmarks of 
 Timmings on 2-core Intel(R) Core(TM) i7-5600U CPU @ 2.60GHz running Ubuntu 14.04
 
 
-C
+[C](https://gcc.gnu.org/)
 ==
 
 To Compile:
@@ -43,7 +43,7 @@ sys   0m0.016s
 
 ***
 
-Lua
+[Lua](https://www.lua.org/)
 ===
 
 ``````
@@ -52,51 +52,51 @@ $ time lua fibo.lua
 
 real  0m0.554s
 user  0m0.368s
-sys 0m0.092s
+sys   0m0.092s
 
 $ time luajit fibo.lua
 2178309
 
 real  0m0.073s
 user  0m0.036s
-sys 0m0.008s
+sys   0m0.008s
 ``````
 
 
 ***
 
-mRuby
-====
+[mRuby](http://mruby.org/)
+=====
 
 
 ***
 
-Crystal
+[Crystal](http://crystal-lang.org/)
 =======
 
 ***
 
-Ruby
+[Ruby](https://www.ruby-lang.org/)
 ====
 
 ***
 
-Perl
+[Perl](https://www.perl.org/)
 ====
 
 ***
 
-Javascript
+[Javascript](https://www.javascript.com/)
 ==========
 
 ***
 
-Python
+[Python](https://www.python.org/)
 ======
 
 ***
 
-Haskell
+[Haskell](https://www.haskell.org/ghc/)
 =======
 
 To Compile:
@@ -139,23 +139,24 @@ sys   0m0.048s
 ***
 
 
-Elixir
+[Elixir](http://www.elixir-lang.org/)
 ======
 
 ***
 
-Rust
+[Rust](https://www.rust-lang.org)
 ====
 
 ***
 
-Go
+[Go](https://golang.org)
 ===
 
 ***
 
-Sh
-===
+[Bash](https://www.gnu.org/software/bash/)
+====
 
 
 ***
+

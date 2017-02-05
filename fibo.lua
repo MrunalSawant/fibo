@@ -7,6 +7,6 @@ local function fibonacci(n)
   end
 
   return fibonacci(n-1)+fibonacci(n-2)
-
 end
-io.write(fibonacci(31), "\n");
+
+io.write(fibonacci(32), "\n");

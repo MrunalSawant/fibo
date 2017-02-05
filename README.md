@@ -46,30 +46,55 @@ sys   0m0.016s
 Lua
 ===
 
+``````
+$ time lua fibo.lua
+2178309
+
+real  0m0.554s
+user  0m0.368s
+sys 0m0.092s
+
+$ time luajit fibo.lua
+2178309
+
+real  0m0.073s
+user  0m0.036s
+sys 0m0.008s
+``````
+
+
+***
 
 mRuby
 ====
 
 
-Ruby
-====
-
-
-Perl
-====
-
-
-Javascript
-==========
-
+***
 
 Crystal
 =======
 
+***
+
+Ruby
+====
+
+***
+
+Perl
+====
+
+***
+
+Javascript
+==========
+
+***
 
 Python
 ======
 
+***
 
 Haskell
 =======
@@ -117,16 +142,20 @@ sys   0m0.048s
 Elixir
 ======
 
+***
 
 Rust
 ====
 
+***
 
 Go
 ===
 
+***
 
 Sh
 ===
 
 
+***

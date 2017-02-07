@@ -4,3 +4,4 @@ mrb_fibo
 *err*
 *.hi
 *.o
+*.mrb

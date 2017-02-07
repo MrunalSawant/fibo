@@ -81,6 +81,12 @@ $  gcc -std=c99 -I /home/shashank/mruby/include mrb_fibo.c /home/shashank/mruby/
 $ ltr mrb_fibo
 -rwxrwxr-x 1 shashank shashank 1228277 Feb  6 22:28 mrb_fibo
 
+$ ldd mrb_fibo
+  linux-vdso.so.1 =>  (0x00007ffead1f2000)
+  libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f3fd730d000)
+  libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f3fd6f48000)
+  /lib64/ld-linux-x86-64.so.2 (0x000055c938a56000)
+
 $ time ./mrb_fibo
 2178309
 
